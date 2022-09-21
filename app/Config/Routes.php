@@ -38,6 +38,7 @@ $routes->get('/logout', 'LoginController::logout');
 
 $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'auth']);
 $routes->get('/link', 'Link::index', ['filter' => 'auth']);
+$routes->get('/contact', 'Contact::index', ['filter' => 'auth']);
 $routes->post('/generate', 'Link::generate_link', ['filter' => 'auth']);
 $routes->post('/update_is_copy', 'Link::edit_is_copy', ['filter' => 'auth']);
 $routes->post('/store_hadiah', 'Dashboard::add_hadiah', ['filter' => 'auth']);
