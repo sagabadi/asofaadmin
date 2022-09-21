@@ -16,7 +16,7 @@ class Contact extends BaseController
 
 	public function add_contact(){
 		$session = session();
-		$no_hp = $this->request->getPost('no_hp');
+		$no_hp = $this->request->getPost('hp_admin');
 		$event = new ContactModel();
 
 		$e = $event->add_contact($no_hp);
