@@ -53,7 +53,7 @@
                             </button>
                         </a>
                     </div>
-                        <h3 style="color: red;">Proses Copy Link Hanya Bisa Dilakukan Satu Kali !</h3>
+                        <!-- <h3 style="color: red;">Proses Copy Link Hanya Bisa Dilakukan Satu Kali !</h3> -->
                         <div class="table-responsive">
                             <table id="table-link" class="table table-striped table-bordered first">
                                 <thead>
