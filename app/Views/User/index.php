@@ -70,7 +70,8 @@
                                     
                                     <?php foreach($contact as $v):?>                         
                                         <tr>
-                                            <td><?= $i?></td>                            
+                                            <td><?= $i?></td>    
+                                            <td><?= $v->no_hp?></td>                            
                                         </tr>
                                         <?php
                                             $i = $i + 1;
