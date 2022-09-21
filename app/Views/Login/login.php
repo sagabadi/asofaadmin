@@ -44,14 +44,14 @@
     </style>
 </head>
 <body>
-    <?php if(session()->getFlashdata('salah')):?>
+    <!-- <?php if(session()->getFlashdata('salah')):?> -->
         <script type="text/javascript">
             toastr.success('User Tidak Ditemukan');
             // $(document).ready(function(){
             //     swal("Tidak Dapat Menambahkan Data Karena Sudah ada data inputan sebelumnya", {icon: "warning",});     
             // });
         </script>
-    <?php endif?>
+    <!-- <?php endif?> -->
     <?php
         $session = session();
     ?>
