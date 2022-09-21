@@ -97,7 +97,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
+                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
                             </div>
                         </div>
                         <div class="row pt-2 pt-sm-5 mt-1">
