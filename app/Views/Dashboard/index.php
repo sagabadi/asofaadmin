@@ -95,7 +95,7 @@
             <div class="card">
                 <h5 class="card-header">Tambah Data Hadiah</h5>
                 <div class="card-body">
-                    <form id="form" data-parsley-validate="" novalidate="" method="post" action="<?= base_url('/store_hadiah')?>">
+                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/store_hadiah')?>">
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Hadiah</label>
                             <div class="col-9 col-lg-9">
@@ -128,7 +128,7 @@
             <div class="card">
                 <h5 class="card-header">Edit Data Hadiah</h5>
                 <div class="card-body">
-                    <form id="form" data-parsley-validate="" novalidate="" method="post" action="<?= base_url('/update_hadiah')?>">
+                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/update_hadiah')?>">
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Hadiah</label>
                             <div class="col-9 col-lg-9">
