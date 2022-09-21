@@ -41,7 +41,14 @@
     }
     </style>
 </head>
-
+<?php if(session()->getFlashdata('salah')):?>
+    <script type="text/javascript">
+        toastr.warning('User Tidak Ditemukan');
+        // $(document).ready(function(){
+        //     swal("Tidak Dapat Menambahkan Data Karena Sudah ada data inputan sebelumnya", {icon: "warning",});     
+        // });
+    </script>
+<?php endif?>
 <body>
     <!-- ============================================================== -->
     <!-- login page  -->
