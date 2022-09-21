@@ -41,7 +41,8 @@
     }
     </style>
 </head>
-<?php if(session()->getFlashdata('salah')):?>
+<body>
+    <?php if(session()->getFlashdata('salah')):?>
     <script type="text/javascript">
         toastr.warning('User Tidak Ditemukan');
         // $(document).ready(function(){
@@ -49,7 +50,6 @@
         // });
     </script>
 <?php endif?>
-<body>
     <!-- ============================================================== -->
     <!-- login page  -->
     <!-- ============================================================== -->
