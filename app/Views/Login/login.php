@@ -58,7 +58,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="card">
             <!-- <img src="../assets/images/intrasetneg_expired_page.png"> -->
-            <div class="card-header text-center"><a href="../index.html"><img class="logo-img" src="../assets/images/logo_.png" alt="logo" height="48" width="40"></a><span class="splash-description">ASOFA ADMIN</span></div>
+            <div class="card-header text-center"><a href="../index.html"><img class="logo-img" src="../assets/images/asofa.jpg" alt="logo" height="48" width="40"></a><span class="splash-description">ASOFA ADMIN</span></div>
             <div class="card-body">
                 <form action="<?= base_url('login')?>" method="post">
                 <div class="form-group">
