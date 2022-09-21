@@ -23,7 +23,8 @@ class LoginController extends BaseController
             $session->set($ses_data);
             return redirect()->to('/dashboard');
         }else{
-            $session->setFlashdata('msg', 'Username not Found');
+            $session->setFlashdata('salah', 'Success');
+            // $session->setFlashdata('msg', 'Username not Found');
             return redirect()->to('/');
         }
 	}
