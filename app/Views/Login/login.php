@@ -55,10 +55,10 @@
             <div class="card-body">
                 <form action="<?= base_url('login')?>" method="post">
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="username">
+                  <input type="text" required="" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="username">
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password">
+                  <input type="password" required="" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="password">
                 </div>
                 <div class="mt-3">
                   <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">LOG IN</button>
