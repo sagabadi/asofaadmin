@@ -3,12 +3,14 @@ use App\Models\ContactModel;
 
 class Contact extends BaseController
 {
-	$session = session();
-	$event = new ContactModel();
-	$data['contact'] = $event->get_contact();
+	public function index(){
+		$session = session();
+		$event = new ContactModel();
+		$data['contact'] = $event->get_contact();
 
-	echo view('Templates/header');
-	echo view('Templates/sidebar');
-    echo view('User/index', $data);        
-    echo view('Templates/footer');
+		echo view('Templates/header');
+		echo view('Templates/sidebar');
+	    echo view('User/index', $data);        
+	    echo view('Templates/footer');
+	}
 }
