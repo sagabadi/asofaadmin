@@ -13,7 +13,7 @@ class ContactModel extends Model{
 
     public function add_contact($no_hp){
         $db      = \Config\Database::connect();
-        $sql = "insert into contact(no_hp) values(".$no_hp.")";
+        $sql = "insert into contact(no_hp) values('".$no_hp."'')";
         $query = $db->query($sql);
 
         return $query;
