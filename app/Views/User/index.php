@@ -48,7 +48,7 @@
                     <div style="width: 100%; text-align: left; margin-bottom: 10px;">
                         <a href="#" data-toggle="modal" data-target="#modal-default">
                             <button type="button" class="btn btn-primary" style="background-color: green">
-                                <i class="fas fa-link" style="margin-right: 10px;"></i>
+                                <i class="fas fa-phone" style="margin-right: 10px;"></i>
                                 Tambah Contact Person
                             </button>
                         </a>
