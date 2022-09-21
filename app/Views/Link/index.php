@@ -107,7 +107,7 @@
             <div class="card">
                 <h5 class="card-header">Generate Link Buyer</h5>
                 <div class="card-body">
-                    <form id="form" data-parsley-validate="" novalidate="" method="post" action="<?= base_url('/generate')?>">
+                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/generate')?>">
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Buyer</label>
                             <div class="col-9 col-lg-9">
