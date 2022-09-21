@@ -13,4 +13,13 @@ class Contact extends BaseController
 	    echo view('User/index', $data);        
 	    echo view('Templates/footer');
 	}
+
+	public function add_contact(){
+		$no_hp = $this->request->getPost('no_hp');
+		$event = new ContactModel();
+
+		$e = $event->add_contact($no_hp);
+		$session->setFlashdata('add', 'Success');
+		return $this->response->redirect(base_url('/contact'));
+	}
 }

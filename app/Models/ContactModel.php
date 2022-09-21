@@ -11,4 +11,12 @@ class ContactModel extends Model{
         return $cek;
 	}  
 
+    public function add_contact($no_hp){
+        $db      = \Config\Database::connect();
+        $sql = "insert into contact(no_hp) values(".$no_hp.")";
+        $query = $db->query($sql);
+
+        return $query;
+    }
+
 }
