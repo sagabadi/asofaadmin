@@ -79,7 +79,7 @@
                                                     <input type="text" style="width:30%; margin-right:15px;" disabled name="nama_kategori" value="<?= $v->url?>" class="form-control" placeholder="Nama Event">
                                                     <?php if($v->is_copy == 0):?>
                                                     <input type="hidden" id="url_" name="" value="<?= $v->url?>">
-                                                    <button data-url="<?= $v->url?>" onclick="myFunction(this)" class="btn btn-primary btn-icon-text">Copy text</button>
+                                                    <button data-url="<?= $v->url?>" onclick="myFunction(this)" class="btn btn-primary btn-icon-text">Copy URL</button>
                                                     <?php endif?>
                                                 </div>
                                             </td>        
