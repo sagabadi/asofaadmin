@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cellgrup/asofaadmin_/
+    - /bin/cp * $DEPLOYPATH
