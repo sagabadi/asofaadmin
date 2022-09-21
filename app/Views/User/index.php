@@ -90,25 +90,13 @@
         </div>
         <div class="modal fade col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" id="modal-default">
             <div class="card">
-                <h5 class="card-header">Generate Link Buyer</h5>
+                <h5 class="card-header">Tambah Contact Person</h5>
                 <div class="card-body">
                     <form id="form" data-parsley-validate="" novalidate="" method="post" action="<?= base_url('/generate')?>">
                         <div class="form-group row">
-                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Buyer</label>
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="nama_buyer" required="" data-parsley-type="email" placeholder="Nama Buyer" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Alamat Buyer</label>
-                            <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="alamat_buyer" required="" data-parsley-type="email" placeholder="Alamat Buyer" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Buyer</label>
-                            <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="hp_buyer" required="" data-parsley-type="email" placeholder="No HP Buyer" class="form-control">
+                                <input id="inputEmail2" type="email" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Buyer" class="form-control">
                             </div>
                         </div>
                         <div class="row pt-2 pt-sm-5 mt-1">
