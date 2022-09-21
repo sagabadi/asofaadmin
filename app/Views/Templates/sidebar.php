@@ -22,7 +22,12 @@
                         <a class="nav-link <?php if (($uri->getTotalSegments() >= 1 && $uri->getSegment(1) == 'link')): ?>
                         active
                     <?php endif ?>" href="<?= base_url('/link')?>"><i class="fas fa-link mr-2"></i>Generate Link <span class="badge badge-success">6</span></a>                                
-                    </li>          
+                    </li>     
+                    <li class="nav-item ">
+                        <a class="nav-link <?php if (($uri->getTotalSegments() >= 1 && $uri->getSegment(1) == 'contact')): ?>
+                        active
+                    <?php endif ?>" href="<?= base_url('/contact')?>"><i class="fas fa-phone mr-2"></i>Contact Admin <span class="badge badge-success">6</span></a>                                
+                    </li>      
                     <li class="nav-item ">
                         <a class="nav-link" href="<?= base_url('/logout')?>"><i class="fas fa-power-off mr-2"></i>Logout <span class="badge badge-success">6</span></a>                                
                     </li>                    
