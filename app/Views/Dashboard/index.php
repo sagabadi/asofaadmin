@@ -99,7 +99,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Hadiah</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="nama_hadiah" required="" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
+                                <input id="inputEmail2" type="email" required="" name="nama_hadiah" required="" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -132,7 +132,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Hadiah</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="nama_hadiah" required="" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control nama_hadiah">
+                                <input id="inputEmail2" type="email" required="" name="nama_hadiah" required="" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control nama_hadiah">
                             </div>
                         </div>
                         <div class="form-group row">
