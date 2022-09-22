@@ -105,7 +105,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Valuable Price</label>
                             <div class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
-                                <input id="inputEmail2" type="checkbox" name="is_valuable" required="" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
+                                <input id="inputEmail2" type="checkbox" name="is_valuable" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
                         <div class="row pt-2 pt-sm-5 mt-1">
@@ -138,7 +138,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Valuable Price</label>
                             <div id="cb_value" class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
-                                <input id="inputEmail2" type="checkbox" name="is_valuable" required="" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
+                                <input id="inputEmail2" type="checkbox" name="is_valuable" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
                         <input type="hidden" name="id" class="id_hadiah">

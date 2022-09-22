@@ -107,7 +107,7 @@
                             <div class="col-sm-6 pl-0">
                                 <p class="text-right">
                                     <button type="submit" class="btn btn-space btn-primary">Submit</button>
-                                    <a href="<?= base_url('/link')?>" class="btn btn-space btn-secondary" style="color: #ffffff">Cancel</a>
+                                    <a href="<?= base_url('/contact')?>" class="btn btn-space btn-secondary" style="color: #ffffff">Cancel</a>
                                 </p>
                             </div>
                         </div>
