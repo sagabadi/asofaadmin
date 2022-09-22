@@ -111,19 +111,19 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nama Buyer</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="nama_buyer" required="" data-parsley-type="email" placeholder="Nama Buyer" class="form-control">
+                                <input id="inputEmail2" type="text" name="nama_buyer" required="" data-parsley-type="email" placeholder="Nama Buyer" class="form-control">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Alamat Buyer</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="alamat_buyer" required="" data-parsley-type="email" placeholder="Alamat Buyer" class="form-control">
+                                <input id="inputEmail2" type="text" name="alamat_buyer" required="" data-parsley-type="email" placeholder="Alamat Buyer" class="form-control">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Buyer</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="email" name="hp_buyer" required="" data-parsley-type="email" placeholder="No HP Buyer" class="form-control">
+                                <input id="inputEmail2" type="text" name="hp_buyer" required="" data-parsley-type="email" placeholder="No HP Buyer" class="form-control">
                             </div>
                         </div>
                         <div class="row pt-2 pt-sm-5 mt-1">
