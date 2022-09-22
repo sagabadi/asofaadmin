@@ -36,7 +36,7 @@ class Link extends BaseController
 		$alamat_buyer = $this->request->getPost('alamat_buyer');
 		$key = date("Y").''.date("m").''.date("d").''.date("H").''.date("i").''.''.date("s");
 		$link = 'www.gombel.com/'.$key;
-		$ins = $event->insert_link($link, $nama_buyer, $hp_buyer, $alamat_buyer);
+		$ins = $event->insert_link($link, $nama_buyer, $hp_buyer, $alamat_buyer, $key);
 		$session->setFlashdata('add', 'Success');
 		return $this->response->redirect(base_url('/link'));
 	}
