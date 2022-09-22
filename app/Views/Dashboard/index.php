@@ -194,9 +194,9 @@
             $('.nama_hadiah').val(name);
             // alert ("This is an alert dialog box");  
             if(valuable == 1){
-                html += '<input id="inputEmail2" type="checkbox" name="is_valuable" checked="checked" required="" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
+                html += '<input id="inputEmail2" type="checkbox" name="is_valuable" checked="checked"  style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
             } else {
-                html += '<input id="inputEmail2" type="checkbox" name="is_valuable" required="" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
+                html += '<input id="inputEmail2" type="checkbox" name="is_valuable"  style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
             }
             $('#cb_value').html(html);
             $('#modal-edit').modal('show');

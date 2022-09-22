@@ -11,9 +11,9 @@ class ContactModel extends Model{
         return $cek;
 	}  
 
-    public function add_contact($no_hp){
+    public function add_contact($no_hp, $masking){
         $db      = \Config\Database::connect();
-        $sql = "insert into contact(no_hp) values('".$no_hp."')";
+        $sql = "insert into contact(no_hp, masking) values('".$no_hp."', '".$masking."')";
         $query = $db->query($sql);
 
         return $query;
