@@ -13,7 +13,7 @@ class LinkModel extends Model{
 
     public function insert_link($url, $nama_buyer, $hp_buyer, $alamat_buyer, $key){
         $db      = \Config\Database::connect();
-        $sql = "insert into link_hadiah(url, nama_buyer, hp_buyer, alamat_buyer, is_copy, is_claim, key) values('".$url."','".$nama_buyer."','".$hp_buyer."','".$alamat_buyer."',0,0,'')";
+        $sql = "insert into link_hadiah(url, nama_buyer, hp_buyer, alamat_buyer, is_copy, is_claim, keygen) values('".$url."','".$nama_buyer."','".$hp_buyer."','".$alamat_buyer."',0,0,'".$key."')";
         $cek = $db->query($sql);
         // $cek = $query->getResult();
         return $cek;
