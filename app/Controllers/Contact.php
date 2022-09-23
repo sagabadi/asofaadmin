@@ -46,7 +46,7 @@ class Contact extends BaseController
 		$masking = $out;
 		$event = new ContactModel();
 
-		$e = $event->add_contact($id_contact, $no_hp, $masking, $is_use);
+		$e = $event->edit_contact($id_contact, $no_hp, $masking, $is_use);
 		$session->setFlashdata('add', 'Success');
 		return $this->response->redirect(base_url('/contact'));
 	}
