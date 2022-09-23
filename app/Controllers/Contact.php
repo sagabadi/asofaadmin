@@ -17,7 +17,8 @@ class Contact extends BaseController
 	public function add_contact(){
 		$session = session();
 		$no_hp = $this->request->getPost('hp_admin');
-		$masking = '';
+		$out = preg_replace('/^0/', '62', $no_hp);
+		$masking = $out;
 		$event = new ContactModel();
 
 		$e = $event->add_contact($no_hp, $masking);
