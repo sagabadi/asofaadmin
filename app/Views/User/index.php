@@ -129,15 +129,16 @@
                 <div class="card-body">
                     <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/add_contact')?>">
                         <div class="form-group row">
-                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left no_hp">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
                                 <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
                             </div>
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Gunakan Nomor Ini</label>
-                            <div class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
+                            <div id="cb_value" class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
                                 <input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
+                        <input type="hidden" name="id" class="id_contact">
                         <div class="row pt-2 pt-sm-5 mt-1">
                             <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
                                 
@@ -191,12 +192,19 @@
     }
     $(document).ready(function(){
         $('.btn-edit').on('click',function(){
-
-            const name = $(this).data('nama_hadiah');
+            var html = '';
+            const no_hp = $(this).data('no_hp');
+            const is_use = $(this).data('is_use');
             const id = $(this).data('id');
-            $('.id_hadiah').val(id);
-            $('.nama_hadiah').val(name);
+            $('.id_contact').val(id);
+            $('.no_hp').val(name);
             // alert ("This is an alert dialog box");  
+            if(valuable == 1){
+                html += '<input id="inputEmail2" type="checkbox" name="is_use" checked="checked" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
+            } else {
+                html += '<input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
+            }
+            $('#cb_value').html(html);
             $('#modal-edit').modal('show');
         });
 
