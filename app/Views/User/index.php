@@ -139,7 +139,7 @@
                                 <input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
-                        <input type="hidden" name="id" class="id_contact">
+                        <input type="text" name="id" class="id_contact">
                         <div class="row pt-2 pt-sm-5 mt-1">
                             <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
                                 
