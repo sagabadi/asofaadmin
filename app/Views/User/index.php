@@ -198,7 +198,7 @@
             const is_use = $(this).data('is_use');
             const id = $(this).data('id');
             $('.id_contact').val(id);
-            $('.no_hp').val(name);
+            $('.no_hp').val(no_hp);
             // alert ("This is an alert dialog box");  
             if(is_use == 1){
                 html += '<input id="inputEmail2" type="checkbox" name="is_use" checked="checked" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
