@@ -123,7 +123,8 @@
                     </form>
                 </div>
             </div>
-            <div class="modal fade col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" id="modal-edit">
+        </div>
+        <div class="modal fade col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" id="modal-edit">
             <div class="card">
                 <h5 class="card-header">Edit Contact Person</h5>
                 <div class="card-body">
