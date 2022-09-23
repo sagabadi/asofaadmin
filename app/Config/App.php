@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'https://asofaadmin.88cellgrup.com/';
+	public $baseURL = 'https://hellobestiebyasofa.id/';
 	// public $baseURL = 'https://intrasetneg.id/';
 
 	/**
