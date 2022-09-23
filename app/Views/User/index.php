@@ -60,6 +60,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Nomor Contact</th>
+                                        <th>Nomor Digunakan</th>
                                         <th>Action</th>
                                         <!-- <th>Action</th> -->
                                     </tr>
@@ -73,6 +74,9 @@
                                         <tr>
                                             <td><?= $i?></td>    
                                             <td><?= $v->no_hp?></td>
+                                            <td>
+                                                <input id="inputEmail2" disabled="" type="checkbox" name="is_valuable" <?php if($v->is_use == 1):?>checked="checked"<?php endif?> required="" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
+                                            </td>
                                             <td>
                                                 <a href="#" class="btn-edit" data-id="<?= $v->id;?>" data-no_hp="<?= $v->no_hp;?>" data-is_use="<?= $v->is_use;?>"><i class="fas fa-pencil-alt mr-2"></i></a>
                                                 <a href="#" class="btn-delete" data-id="<?= $v->id;?>" ><i class="fas fa-trash mr-2"></i></a>
