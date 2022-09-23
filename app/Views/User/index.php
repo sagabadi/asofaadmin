@@ -74,7 +74,7 @@
                                             <td><?= $i?></td>    
                                             <td><?= $v->no_hp?></td>
                                             <td>
-                                                <a href="#" class="btn-edit" data-id="<?= $v->id;?>" data-nama_hadiah="<?= $v->nama_hadiah;?>" data-valuable="<?= $v->is_valuable;?>"><i class="fas fa-pencil-alt mr-2"></i></a>
+                                                <a href="#" class="btn-edit" data-id="<?= $v->id;?>"><i class="fas fa-pencil-alt mr-2"></i></a>
                                                 <a href="#" class="btn-delete" data-id="<?= $v->id;?>" ><i class="fas fa-trash mr-2"></i></a>
                                             </td>                            
                                         </tr>
