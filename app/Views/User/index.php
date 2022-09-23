@@ -60,6 +60,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Nomor Contact</th>
+                                        <th>Action</th>
                                         <!-- <th>Action</th> -->
                                     </tr>
                                 </thead>
@@ -71,7 +72,11 @@
                                     <?php foreach($contact as $v):?>                         
                                         <tr>
                                             <td><?= $i?></td>    
-                                            <td><?= $v->no_hp?></td>                            
+                                            <td><?= $v->no_hp?></td>
+                                            <td>
+                                                <a href="#" class="btn-edit" data-id="<?= $v->id;?>" data-nama_hadiah="<?= $v->nama_hadiah;?>" data-valuable="<?= $v->is_valuable;?>"><i class="fas fa-pencil-alt mr-2"></i></a>
+                                                <a href="#" class="btn-delete" data-id="<?= $v->id;?>" ><i class="fas fa-trash mr-2"></i></a>
+                                            </td>                            
                                         </tr>
                                         <?php
                                             $i = $i + 1;
@@ -98,6 +103,39 @@
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
                                 <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
+                            </div>
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Gunakan Nomor Ini</label>
+                            <div class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
+                                <input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row pt-2 pt-sm-5 mt-1">
+                            <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
+                                
+                            </div>
+                            <div class="col-sm-6 pl-0">
+                                <p class="text-right">
+                                    <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                                    <a href="<?= base_url('/contact')?>" class="btn btn-space btn-secondary" style="color: #ffffff">Cancel</a>
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal fade col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" id="modal-edit">
+            <div class="card">
+                <h5 class="card-header">Edit Contact Person</h5>
+                <div class="card-body">
+                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/add_contact')?>">
+                        <div class="form-group row">
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
+                            <div class="col-9 col-lg-9">
+                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
+                            </div>
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Gunakan Nomor Ini</label>
+                            <div class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
+                                <input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
                         <div class="row pt-2 pt-sm-5 mt-1">
