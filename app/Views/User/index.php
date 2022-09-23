@@ -199,7 +199,7 @@
             $('.id_contact').val(id);
             $('.no_hp').val(name);
             // alert ("This is an alert dialog box");  
-            if(valuable == 1){
+            if(is_use == 1){
                 html += '<input id="inputEmail2" type="checkbox" name="is_use" checked="checked" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
             } else {
                 html += '<input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">';
