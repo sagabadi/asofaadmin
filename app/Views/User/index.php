@@ -102,7 +102,7 @@
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control no_hp">
+                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
                             </div>
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Gunakan Nomor Ini</label>
                             <div class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
@@ -130,9 +130,9 @@
                 <div class="card-body">
                     <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/add_contact')?>">
                         <div class="form-group row">
-                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left no_hp">Nomor HP Admin</label>
+                            <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
-                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control">
+                                <input id="inputEmail2" type="number" name="hp_admin" required="" data-parsley-type="email" placeholder="No HP Admin" class="form-control no_hp">
                             </div>
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Gunakan Nomor Ini</label>
                             <div id="cb_value" class="" style="place-content: left; padding-top: 9px; padding-left: 10px;">
