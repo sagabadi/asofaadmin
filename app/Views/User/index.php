@@ -128,7 +128,7 @@
             <div class="card">
                 <h5 class="card-header">Edit Contact Person</h5>
                 <div class="card-body">
-                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/add_contact')?>">
+                    <form id="form" data-parsley-validate="" method="post" action="<?= base_url('/edit_contact')?>">
                         <div class="form-group row">
                             <label for="inputEmail2" class="col-3 col-lg-3 col-form-label text-left">Nomor HP Admin</label>
                             <div class="col-9 col-lg-9">
@@ -139,7 +139,7 @@
                                 <input id="inputEmail2" type="checkbox" name="is_use" style="width: 18px; height: 18px;" data-parsley-type="email" placeholder="Nama Hadiah" class="form-control">
                             </div>
                         </div>
-                        <input type="text" name="id" class="id_contact">
+                        <input type="hidden" name="id" class="id_contact">
                         <div class="row pt-2 pt-sm-5 mt-1">
                             <div class="col-sm-6 pb-2 pb-sm-4 pb-lg-0 pr-0">
                                 
